@@ -15,6 +15,12 @@
 		3F7B0027223D2B0E00C0BF83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B0026223D2B0E00C0BF83 /* LoginViewController.swift */; };
 		3F7B0029223D312000C0BF83 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B0028223D312000C0BF83 /* RegisterViewController.swift */; };
 		3F7B002B223D32C900C0BF83 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B002A223D32C900C0BF83 /* MainScreenViewController.swift */; };
+		3FC3A43D223D55C000CCEFFE /* TeacherListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A43C223D55C000CCEFFE /* TeacherListViewController.swift */; };
+		3FC3A451223D740700CCEFFE /* DaysListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A450223D740700CCEFFE /* DaysListViewController.swift */; };
+		3FC3A453223D74B800CCEFFE /* TimeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A452223D74B800CCEFFE /* TimeListViewController.swift */; };
+		3FC3A455223D74FC00CCEFFE /* StudentEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A454223D74FC00CCEFFE /* StudentEndViewController.swift */; };
+		3FC3A457223D79F500CCEFFE /* TeacherDaysListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A456223D79F500CCEFFE /* TeacherDaysListViewController.swift */; };
+		3FC3A459223D7A4500CCEFFE /* TeacherTimeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC3A458223D7A4500CCEFFE /* TeacherTimeListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		3F7B0026223D2B0E00C0BF83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F7B0028223D312000C0BF83 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3F7B002A223D32C900C0BF83 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		3FC3A43C223D55C000CCEFFE /* TeacherListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherListViewController.swift; sourceTree = "<group>"; };
+		3FC3A450223D740700CCEFFE /* DaysListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysListViewController.swift; sourceTree = "<group>"; };
+		3FC3A452223D74B800CCEFFE /* TimeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeListViewController.swift; sourceTree = "<group>"; };
+		3FC3A454223D74FC00CCEFFE /* StudentEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentEndViewController.swift; sourceTree = "<group>"; };
+		3FC3A456223D79F500CCEFFE /* TeacherDaysListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherDaysListViewController.swift; sourceTree = "<group>"; };
+		3FC3A458223D7A4500CCEFFE /* TeacherTimeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherTimeListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,12 @@
 			isa = PBXGroup;
 			children = (
 				3F40F547223D2848005DA551 /* Main.storyboard */,
+				3FC3A458223D7A4500CCEFFE /* TeacherTimeListViewController.swift */,
+				3FC3A456223D79F500CCEFFE /* TeacherDaysListViewController.swift */,
+				3FC3A454223D74FC00CCEFFE /* StudentEndViewController.swift */,
+				3FC3A452223D74B800CCEFFE /* TimeListViewController.swift */,
+				3FC3A450223D740700CCEFFE /* DaysListViewController.swift */,
+				3FC3A43C223D55C000CCEFFE /* TeacherListViewController.swift */,
 				3F40F543223D2848005DA551 /* AppDelegate.swift */,
 				3F40F545223D2848005DA551 /* ViewController.swift */,
 				3F7B0026223D2B0E00C0BF83 /* LoginViewController.swift */,
@@ -144,11 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC3A455223D74FC00CCEFFE /* StudentEndViewController.swift in Sources */,
 				3F7B002B223D32C900C0BF83 /* MainScreenViewController.swift in Sources */,
+				3FC3A457223D79F500CCEFFE /* TeacherDaysListViewController.swift in Sources */,
+				3FC3A453223D74B800CCEFFE /* TimeListViewController.swift in Sources */,
+				3FC3A43D223D55C000CCEFFE /* TeacherListViewController.swift in Sources */,
 				3F7B0027223D2B0E00C0BF83 /* LoginViewController.swift in Sources */,
 				3F40F546223D2848005DA551 /* ViewController.swift in Sources */,
 				3F40F544223D2848005DA551 /* AppDelegate.swift in Sources */,
+				3FC3A459223D7A4500CCEFFE /* TeacherTimeListViewController.swift in Sources */,
 				3F7B0029223D312000C0BF83 /* RegisterViewController.swift in Sources */,
+				3FC3A451223D740700CCEFFE /* DaysListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
